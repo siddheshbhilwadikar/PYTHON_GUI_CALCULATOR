@@ -124,7 +124,7 @@ def result():
     elif operator == "/":
         x=int((val2.split("/")[1]))
         if x==0:
-            messagebox.showerror("Abbey yede","Divided by 0")
+            messagebox.showerror("Error","Divided by 0")
             A=""
             val=""
             data.set(val)
